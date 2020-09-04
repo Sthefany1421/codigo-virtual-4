@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registrarse</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registrarse</h1>
+    </header>
+
+    <nav>
+        <a href="./IniciarSesion.html">Iniciar Sesión</a>
+        <a href="#">Registrarse</a>
+    </nav>
+    <br/>
+    <form>
+        <table>
+
+            <tr>
+                <td>
+                    <label for="Nombre">Nombre Completo</label>
+                </td>
+                <td>
+                    <input type="text" id="Nombre" placeholder="Nombre Completo">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Apellidos">Apellidos</label>
+                </td>
+                <td>
+                    <input type="text" id="Apellidos" placeholder="Apellidos">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Edad">Edad</label>
+                </td>
+                <td>
+                    <input type="number" id="Edad" placeholder="Edad">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Fecha">Fecha de Nacimiento</label>
+                </td>
+                <td>
+                    <input type="date" id="Fecha">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Correo">Correo</label>
+                </td>
+                <td>
+                    <input type="email" id="Correo" value="@hotmail">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Contraseña">Contraseña</label>
+                </td>
+                <td>
+                    <input type="password" id="Contraseña">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Sexo</label>
+                </td>
+                <td>
+                    <label for="radioM">M</label>
+                    <input type="radio" id="radioM" name="Sexo" checked>
+
+                    <label for="radioF">F</label>
+                    <input type="radio" id="radioF" name="Sexo">
+
+                    <label for="radioO">Otro</label>
+                    <input type="radio" id="radioO" name="Sexo">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Idiomas</label>
+                </td>
+                <td>
+                    <label for="Ingles">Ingles</label>
+                    <input type="checkbox" id="Ingles">
+
+                    <label for="español">Español</label>
+                    <input type="checkbox" id="español" checked>
+
+                    <label for="portugues">Portugues</label>
+                    <input type="checkbox" id="portugues">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Seleccinar">Nivel de Estudio</label>
+                </td>
+                <td>
+                    <select id="Seleccinar">
+                        <option>Nivel de Estudio</option>
+                        <option>Inicial</option>
+                        <option>Primaria</option>
+                        <option>Secundaria</option>
+                        <option>Superior</option>
+                    </select>
+                </td>
+
+                <tr>
+                    <td>
+                        <label for="Descrip">Descripción</label>
+                    </td>
+                    <td>
+                        <textarea id="Descrip" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="subirarchivo">Ingresar su CV</label>
+                    </td>
+                    <td>
+                        <input type="file" id="subirarchivo">
+                    </td>
+                </tr>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="color">Color Base</label>
+                </td>
+                <td>
+                    <input type="color" id="color">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" value="Registrarse">
+                    <input type="reset" value="Limpiar">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
