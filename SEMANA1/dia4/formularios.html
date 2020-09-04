@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FORMULARIO</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="inputNombre">Nombre Completo</label>
+                </td>
+                <td>
+                    <input type="text" id="inputNombre" placeholder="Ingrese Nombre Completo" minlength="4" maxlength="7" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputEdad">Edad</label>
+                </td>
+                <td>
+                    <input type="number" id="inputEdad" placeholder="Ingrese su Edad" min="0" max="10">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="inputFechaNacimiento">Fecha de Nacimiento</label>
+                </td>
+                <td>
+                    <input type="date" id="inputFechaNacimiento" value="2020-12-12">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="inputColor">Color</label>
+                </td>
+                <td>
+                    <input type="color" id="inputColor">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Género</label>
+                </td>
+                <td>
+                    <label for="inputradioM">Masculino</label>
+                    <input type="radio" id="inputradioM" name="genero" checked>
+
+                    <label for="inputradioF">Femenino</label>
+                    <input type="radio" id="inputradioF" name="genero">
+
+                    <label for="inputradioO">Otro</label>
+                    <input type="radio" id="inputradioO" name="genero">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Idiomas</label>
+                </td>
+                <td>
+                    <label for="chekboxIngles">Ingles</label>
+                    <input type="checkbox" id="chekboxIngles" checked>
+
+                    <label for="chekboxEspañol">Español</label>
+                    <input type="checkbox" id="chekboxEspañol">
+
+                    <label for="chekboxPortugues">Portugues</label>
+                    <input type="checkbox" id="chekboxPortugues ">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="inputemail">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="inputemail" value="@gmail.com" placeholder="Ingrese su email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="inputPass">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="inputPass" placeholder="Ingrese su Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="inputTexArea">Comentarios</label>
+                </td>
+                <td>
+                    <textarea id="inputTexArea" cols="10" rows="4"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="slcDepartamento">Selecione su departamento</label>
+                </td>
+                <td>
+                    <select id="slcDepartamento">
+                        <option >Seleccione departamento</option>
+                        <option >Arequipa</option>
+                        <option >Lima</option>
+                        <option >Tacna</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="inputFileSubirArchivo">Subir Archivo</label>
+                </td>
+                <td>
+                    <input type="file" id="inputFileSubirArchivo">
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+                <td>
+                    <label for="">Acciones</label>
+                </td>
+                <td>
+                    <input type="submit" value="Registrarme">
+                    <input type="reset" value="Limpiar Formulario">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
