@@ -14,9 +14,20 @@ h3 {
     color: red;
 }
 
+
+/*Seleccionamos hijos sin importar el nivel*/
+
+.anuncios .textoAnuncio {
+    background: chocolate;
+}
+
 .tarjeta {
     background: royalblue;
+    color: white;
 }
+
+
+/*Seleccionamos hijos especificos y en orden*/
 
 .tarjeta>.cuerpo-tarjeta {
     background: salmon;
