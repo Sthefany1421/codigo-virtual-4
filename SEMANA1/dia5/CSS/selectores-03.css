@@ -1,3 +1,33 @@
+/*ser especificos en css-- ejemplo .tarjeta .cuerpo-tarjeta*/
+
 header {
     background: gray;
+}
+
+section {
+    background: yellow;
+}
+
+h1,
+h2,
+h3 {
+    color: red;
+}
+
+.tarjeta {
+    background: royalblue;
+}
+
+.tarjeta>.cuerpo-tarjeta {
+    background: salmon;
+}
+
+.tarjeta>.cuerpo-tarjeta>h4,
+p {
+    /*para todos los casos que tengam esa estructura */
+    color: black;
+}
+
+.tarjeta>.pie-pagina-tarjeta {
+    background: green;
 }
