@@ -1,0 +1,43 @@
+/*Importar fuentes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+code {
+    color: violet;
+}
+
+.titulo {
+    /*tipo de fuente*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*tamaño de letra*/
+    font-size: 32px;
+    /*Grosor de la fuente*/
+    /*valores entre 100 y 900 donde 900 es muy negrita*/
+    /*valores "normal" y "bold"*/
+    font-weight: 500;
+    font-style: italic;
+}
+
+.subtitulo {
+    /*une todas las propiedades de fuente*/
+    /*ordes: style weight size family*/
+    font: normal 900 24px Arial;
+}
+
+.parrafos__p1 {
+    /*Alineacion del texto interno de un elemento*/
+    /*center, right, justify*/
+    text-align: center;
+}
+
+.parrafos__titulo {
+    text-align: center;
+    color: white;
+    background-color: #444;
+    /*espaciado entre letra y letra*/
+    letter-spacing: 8px;
+    /*espaciado entre palabra y palabra*/
+    word-spacing: 15px;
+    /*eso lo trajimos del estilo que hemos exportado, ponemos el weight de queremos de las tres que hemos importado (300,400,500)*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
