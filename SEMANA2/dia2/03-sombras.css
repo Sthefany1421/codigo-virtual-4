@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.formulario {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    /*sombra*/
+    box-shadow: #bbb 0px 0px 5px/*difuminado*/
+    inset/*sombra interna*/
+    ;
+    border-radius: 10px;
+}
+
+.formulario__input,
+.formulario__mensaje {
+    width: 100%;
+}

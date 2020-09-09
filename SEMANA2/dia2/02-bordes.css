@@ -31,12 +31,23 @@
     width: 100%;
     padding: 5px 27px;
     border: none;
-    /*es un segundo borde exterior sin embargo no es tomado en cuenta para calcular el ancho y el alto de unn elemento, siempre esta flotando*/
+    /* outline es un segundo borde exterior sin embargo no es tomado en cuenta para calcular el ancho y el alto de unn elemento, siempre esta flotando*/
     outline: none;
     border-bottom: 1px solid #e5b8ff;
+    background-color: #fcf6ff;
     background-image: url("./Vector.svg");
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center left;
+}
+
+.formulario__mensaje {
+    width: 100%;
+    outline: none;
     background-color: #fcf6ff;
+    border: 1px solid #eac11e;
+    margin-top: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
