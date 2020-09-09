@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/*EL * sellcciona a todos los elementos del DOM*/
+
+
+/*reglas o funciones de reset en css*/
+
+* {
+    /*reglapaara que el padding y el border de un elemento no afecten en su tamaño establecido, siempre se debe colocar */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     background-color: #444;
@@ -19,9 +32,69 @@ body {
 .main {
     background: #aaaaaa;
     width: 1200px;
-    height: 250px;
+    /*no se estila poner alto*/
+    /* height: 250px;*/
+    padding-bottom: 20px;
 }
 
 footer p {
     text-align: center;
+}
+
+.main__imagenes {
+    height: 100px;
+    /*overflow, sontrola el desborde de los hijos de un elemento*/
+    /* overflow: hidden;*/
+    /*si el contenido es muy grnade en el eje y, se va a dibujar un sccroll*/
+    overflow-y: scroll;
+    /*overflow-x: scroll;*/
+}
+
+
+/*paddung es el relleno, el espacio que el contenido tiene con su borde, para los cuatro lado*/
+
+
+/*padding:16px(padding vertical)30px(padding horixontal)*/
+
+
+/*padding:1px(arriba)2px(derecha)3px(abajo)4px(izquierda)*/
+
+
+/*padding-top:5px(solo para arriba)*/
+
+
+/*padding-left:5px(solo para )*/
+
+
+/*padding-bottoon:5px(solo para )*/
+
+
+/*padding-bottoon:5px(solo para )*/
+
+
+/*margin, espacio entre etiquetas*/
+
+
+/*margin:50px(para los cuatro costados*/
+
+
+/*analogo a la forma de colocar padding*/
+
+
+/*a un elemento le suman el tamaño su padding y su border mas no su margen ejpm: el elemento tiene de ancho y alto 100 px de paddin 5px,margin-botton de 21px, border 5px haciendo un total de 120px*/
+
+.main__descripcion {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    margin-bottom: 21px;
+    border: 5px solid white;
+    padding: 5px;
+}
+
+.main__articulos {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: plum;
 }

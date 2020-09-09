@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario {
+    border: 2px solid rgb(75, 0, 146);
+    width: 500px;
+    height: 600px;
+    margin: 20px/*arriba abajo*/
+    auto/*izquierda derecha, auto es distribuir el espacio en ambos lados por igual*/
+    ;
+    /*borde curvo*/
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.formulario__submit {
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #530780;
+    border-radius: 3px;
+    margin-top: 10px;
+    /*colocando borde solo abajo*/
+    border-bottom: 4px solid #25023a;
+}
+
+.formulario__input {
+    width: 100%;
+    padding: 5px 27px;
+    border: none;
+    /*es un segundo borde exterior sin embargo no es tomado en cuenta para calcular el ancho y el alto de unn elemento, siempre esta flotando*/
+    outline: none;
+    border-bottom: 1px solid #e5b8ff;
+    background-image: url("./Vector.svg");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center left;
+    background-color: #fcf6ff;
+}

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.seccion1 {
+    height: 100px;
+    /*color de fondo*/
+    background-color: #444;
+}
+
+.seccion2 {
+    height: 200px;
+    /*immagen de fondo*/
+    background-image: url(https://www.publicdomainpictures.net/pictures/250000/nahled/clouds-background-005.jpg);
+    /*controlar la repeticion de la imagen*/
+    background-repeat: no-repeat;
+    /*controlar la posicion de la imagen*/
+    /*center, left, right*/
+    background-position: center;
+    /*ajustar el tamaño de la imagen, la imagen no pierde su resolucion, pero cambia su escala*/
+    background-size: contain;
+    /*la imagen se estira al 100%*/
+    background-size: cover;
+}
+
+.seccion2__titulo {
+    height: 200px;
+    background-color: rgba(40, 40, 40, 0.5);
+    color: white;
+    text-align: center;
+}
+
+.seccion3 {
+    height: 50px;
+    /*colocando una gradiente:linear, si dice top significa que va de top a botton, si dice right va de right a left, si dice bottom va de bottom a top, si dice right va de top right a botton left, existen otros prefijos deferentes a webkit, que son para otro navegadores*/
+    background-image: -webkit-linear-gradient(top, #dd1122, #ff7700);
+}
