@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #bbb;
+}
+
+.seccion1 {
+    /*blur, es un desenfoque que admite valores entre 1 y 10px*/
+    /*filter: blur(1px);*/
+    /*filtros en escala de grises admite entre 0 a 1*/
+    /*filter: grayscale(1);*/
+}
+
+
+/*el estado hover coloca estilos cuando el mause esta sobre un elemento*/
+
+.seccion1:hover {
+    /*filter: grayscale(0.7);*/
+    /*aplica brillo a un elememto, acepta valores de 0 a10 empl:0.8*/
+    /*el valor1 es el brillo normal de la imagen*/
+    /* filter: brightness(5);*/
+    /*opacity, define la transparenci de un elemento valores entre 0 y 1*/
+    /*0 es transparente, 1 ya no es transparente*/
+    filter: opacity(0.5);
+}
