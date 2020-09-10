@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.header {
+    height: 60px;
+    background-color: #444;
+}
+
+.main__menu {
+    width: 200px;
+    background-color: #555;
+    display: inline-block;
+}
+
+.main__noticias {
+    width: 600px;
+    background-color: #666;
+    /*inline-block, acupa elancho establecido medianteb el css, las etiquetasson tratadas como palabras, para distribucion de pantalla no sirve, para ello se usa el flex-box*/
+    /*inline: ocupa el ancho del contenido, no se puede establecer ancho con css*/
+    display: inline-block;
+}
+
+.header__item {
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+}
