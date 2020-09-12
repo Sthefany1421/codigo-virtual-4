@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    border: 1px solid blue;
+    height: 400px;
+    /*alinea los elementos en el eje principal
+    el eje principal, es cuando el flex-direction:row, el eje principal es x; cuando el flex-direction: column, el eje es y*/
+    /*center, space-between, space-around, space-evenly */
+    justify-content: space-evenly;
+    /*align-items: alinea a los elementos en el eje secundario; center, flex-end, flex-start*/
+    align-items: center;
+}
+
+.main__formulario {
+    width: 600px;
+    border: 1px solid red;
+}
