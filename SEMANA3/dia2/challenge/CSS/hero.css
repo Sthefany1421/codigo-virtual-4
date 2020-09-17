@@ -1,7 +1,32 @@
 /*HERO*/
 
 .hero {
-    max-width: var(--width);
+    max-width: 768px;
     margin: 0 auto;
     text-align: center;
+}
+
+
+/*> significa los hijos en primer nivel*/
+
+.hero>* {
+    margin-bottom: 1.5rem;
+}
+
+.hero__title {
+    font-family: var(--raleway);
+    font-weight: 700;
+    font-size: 2.5rem;
+    /*altura entre linea y linea*/
+    line-height: 3rem;
+}
+
+.hero__description {
+    font-family: var(--open-sans);
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ddd;
 }
