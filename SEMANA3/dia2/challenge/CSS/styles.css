@@ -111,4 +111,24 @@ body {
     }
 }
 
-@media(max-width:) {}
+@media(max-width:480px) {
+    .header {
+        flex-direction: column;
+        margin-bottom: 3rem;
+        justify-content: center;
+    }
+    .header__list {
+        display: none;
+    }
+    .header__nav:hover .header__list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .header__nav p {
+        display: block;
+    }
+    .header__nav:hover p {
+        display: none;
+    }
+}
